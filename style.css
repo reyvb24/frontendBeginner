@@ -1,0 +1,46 @@
+/* this is a css file for h2 */
+h2 {
+	font-size: 16px;
+	text-decoration: line-through;
+	color: darkgrey;
+	font-family: 'MonteCarlo', cursive;
+}
+
+#banner {
+	width: 100%; 
+	border:5px dotted green;
+}
+
+#t4 {
+	width: 100%;
+	display: flex;
+	border: 5px solid green;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.card {
+	width: 30%;
+	height: auto;
+	background-color: darkgray;
+	border-radius: 20%;
+	overflow: hidden;
+	box-shadow: 0px 5px 5px;
+}
+
+.card-img {
+	width: 100%;
+}
+
+.card-heading {
+	text-align: center;
+}
+
+.card-text {
+	width: 100%;
+	text-align: justify;
+}
